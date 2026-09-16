@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/arb-alerts",
+  "title": "Arb Alerts",
+  "description": "arb-alerts — persisted Polymarket/Kalshi cross-venue spread alerts.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/arb-alerts",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-arb-alerts",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/arb-alerts/mcp"
+    }
+  ]
+}
